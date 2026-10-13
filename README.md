@@ -32,10 +32,12 @@ The interface is in English and Korean and follows your Mac's language. The scre
 - **Reads the whole problem.** A question and its choices are often spread over several lines. HoverLens reads the text around the pointer and works on the one problem you point at. Choices without numbers are numbered in order.
 - **Shows the answer with its explanation.** The answer comes on the first line, then one line per choice saying why it is right or wrong, so the explanation is always there.
 - **Lets you define actions.** Each action has its own instruction, shortcut, reading range and thinking depth. Translate, Explain, Solve and Code are built in.
+- **Reads formulas and figures.** The Solve action sends a picture of the area around the pointer along with the text, so problems with formulas, tables or figures are read properly. It can be turned off per action.
+- **Lets you drag an area.** Set an action to read "Drag an area" and, after the shortcut, drag over the part of the screen you want to ask about.
 - **Puts code on the clipboard.** The Code action copies the answer as soon as it arrives.
 - **Saves answers for later.** With "Read answers later" on, a shortcut shows nothing and the answer is kept in History, so you can finish the problem first and read the explanations afterwards.
 - **No in-app purchases.** No subscription, no usage limit, no account. Answers come through the Claude Code or Codex subscription you already have, or your own API key.
-- **Uses the tools you already have.** If you are signed in to Claude Code or Codex, HoverLens uses that; Anthropic and OpenAI API keys work too. The Model screen has sample problems to check that the chosen model answers.
+- **Uses the tools you already have.** If you are signed in to Claude Code or Codex, HoverLens uses that; Anthropic and OpenAI API keys work too. The AI Model screen has sample problems to check that the chosen model answers.
 - **Reads where there is no text.** In images and in apps that do not expose their text, it recognises the text on screen.
 
 ## Built-in actions
@@ -67,7 +69,7 @@ The first launch shows a permission guide.
 | Permission | Needed | Used for |
 |---|---|---|
 | Accessibility | Required | Reading the text under the pointer and selected text |
-| Screen Recording | Optional | Recognising text in images and in apps that do not expose it |
+| Screen Recording | Optional | Recognising text in images and in apps that do not expose it; actions that send a picture, and dragging an area |
 
 HoverLens does not use Input Monitoring. It only watches whether modifier keys are down, and shortcuts with a key are registered as system hot keys.
 
@@ -94,7 +96,7 @@ HoverLens is made for studying and for understanding what you read. Not using it
 
 ## Where answers come from
 
-Menu bar icon → Open HoverLens → Model.
+Menu bar icon → Open HoverLens → AI Model.
 
 | Service | What you need | Models offered |
 |---|---|---|
@@ -107,7 +109,7 @@ A model that is not listed can be typed in under "Custom…". How long the model
 
 ### If you have neither Claude Code nor Codex
 
-Install one of them and sign in; with an API key there is nothing to install. The Model screen has an Install button that does the same thing. If you do not have [Homebrew](https://brew.sh), install that first.
+Install one of them and sign in; with an API key there is nothing to install. The AI Model screen has an Install button that does the same thing. If you do not have [Homebrew](https://brew.sh), install that first.
 
 ```sh
 # Claude Code
@@ -119,13 +121,14 @@ brew install --cask codex
 codex login
 ```
 
-After installing, open HoverLens's Model screen: it finds the tool by itself. Try one of the sample problems there to see that everything is connected.
+After installing, open HoverLens's AI Model screen: it finds the tool by itself. Try one of the sample problems there to see that everything is connected.
 
 ## What is read and what is sent
 
 - The screen is read only when you press a shortcut. Nothing is read otherwise.
 - Password fields are never read, and HoverLens does nothing in apps you exclude.
 - What is sent: the text that was read (up to 1,000 characters), the name of the app it came from, and the action's instruction. Actions that read the surrounding text also send up to 3,000 characters from around the pointer, within the window you point at. It goes only to the one service you chose.
+- An action set to send an image also sends one picture of the area around the pointer in the window you point at; the built-in Solve action has this on. An action set to drag an area sends a picture of that area and the text recognised in it. Pictures are not saved.
 - Claude Code and Codex are run with their tools and your own settings switched off, and a lookup is stopped if the tool tries to use a tool anyway.
 - API keys are stored only in the Keychain. The sign-in of Claude Code and Codex is never read.
 - History is kept in `~/Library/Application Support/HoverLens/` and can be turned off or cleared.
