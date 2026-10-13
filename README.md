@@ -34,6 +34,7 @@ The interface is in English and Korean and follows your Mac's language. The scre
 - **Lets you define actions.** Each action has its own instruction, shortcut, reading range and thinking depth. Translate, Explain, Solve and Code are built in.
 - **Puts code on the clipboard.** The Code action copies the answer as soon as it arrives.
 - **Saves answers for later.** With "Read answers later" on, a shortcut shows nothing and the answer is kept in History, so you can finish the problem first and read the explanations afterwards.
+- **No in-app purchases.** No subscription, no usage limit, no account. Answers come through the Claude Code or Codex subscription you already have, or your own API key.
 - **Uses the tools you already have.** If you are signed in to Claude Code or Codex, HoverLens uses that; Anthropic and OpenAI API keys work too. The Model screen has sample problems to check that the chosen model answers.
 - **Reads where there is no text.** In images and in apps that do not expose their text, it recognises the text on screen.
 
