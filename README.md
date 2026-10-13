@@ -11,6 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/macOS-15%2B-000000?logo=apple&logoColor=white" alt="macOS 15+">
   <img src="https://img.shields.io/badge/Homebrew-cask-FBB040?logo=homebrew&logoColor=white" alt="Homebrew cask">
+  <a href="https://buymeacoffee.com/juntegral"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 </p>
 
 <p align="center">
@@ -126,3 +127,7 @@ HoverLens는 공부하고 글을 이해하는 데 쓰라고 만든 도구입니�
 - [문제 신고와 제안](https://github.com/juntegral/hoverlens/issues/new/choose)
 
 화면의 글이나 답을 붙여 넣을 때는 개인 정보가 들어 있지 않은지 확인해 주세요.
+
+## 후원
+
+HoverLens가 도움이 됐다면 [커피 한 잔](https://buymeacoffee.com/juntegral)으로 응원해 주세요.
