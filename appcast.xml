@@ -3,6 +3,25 @@
   <channel>
     <title>HoverLens</title>
     <item>
+      <title>0.2.2</title>
+      <pubDate>Tue, 13 Oct 2026 12:13:50 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>새로운 기능</h3>
+<ul>
+<li>모델 화면에서 Claude Code와 Codex를 바로 설치하고 로그인할 수 있어요.</li>
+<li>보조 키만으로 된 단축키를 한 번만 눌러 쓰도록 바꿀 수 있어요. 일반에서 골라요.</li>
+</ul>
+<h3>개선</h3>
+<ul>
+<li>답을 나중에 볼 때는 포인터 옆에 아무것도 띄우지 않아요.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/juntegral/hoverlens/releases/download/v0.2.2/HoverLens-0.2.2.zip" sparkle:edSignature="0MJHACt9xsEMBgvDPt1c0AhXZwCQpPUfwL8LVubzJ3jJ+YVVupBCJDDDNKYkemotwfvfrBLbJT7wqlv/ZQPTCw==" length="4713893" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.2.1</title>
       <pubDate>Tue, 13 Oct 2026 11:08:54 +0000</pubDate>
       <sparkle:version>3</sparkle:version>
