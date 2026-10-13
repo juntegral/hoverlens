@@ -3,6 +3,40 @@
   <channel>
     <title>HoverLens</title>
     <item>
+      <title>0.3.0</title>
+      <pubDate>Tue, 13 Oct 2026 13:48:36 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description xml:lang=en><![CDATA[
+<h3>New</h3>
+<ul>
+<li>Problems with formulas or figures are read with an image of the screen sent along. It’s on for the Solve action and can be turned off for each action.</li>
+<li>You can drag over an area of the screen and ask about it. Choose “Drag an area” for the action’s text to read.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+<li>When the blank is inside a formula, the answer is written in LaTeX.</li>
+<li>The AI Model screen shows whether the tool is installed and signed in, and offers the next step as one button.</li>
+<li>The update window and What’s New appear in the app language.</li>
+</ul>
+      ]]></description>
+      <description xml:lang=ko><![CDATA[
+<h3>새로운 기능</h3>
+<ul>
+<li>수식이나 그림이 있는 문제는 화면 이미지를 함께 보내 읽어요. 풀이 동작에 켜져 있고 동작마다 끌 수 있어요.</li>
+<li>화면에서 영역을 끌어 지정해 물어볼 수 있어요. 동작의 읽는 범위에서 ‘직접 드래그’를 골라요.</li>
+</ul>
+<h3>개선</h3>
+<ul>
+<li>빈칸이 수식 안에 있으면 답을 LaTeX로 써요.</li>
+<li>AI 모델 화면이 설치와 로그인 상태를 알려 주고, 다음에 할 일을 버튼 하나로 안내해요.</li>
+<li>업데이트 창과 새로운 기능을 앱 언어로 보여 줘요.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/juntegral/hoverlens/releases/download/v0.3.0/HoverLens-0.3.0.zip" sparkle:edSignature="bG+CoSTv3k5alnVJXrsncCBeJOplM1vMyTe98G40qVKYlPfQiJHJOwjpxhDQ5oI6wC+qzaf2MDDqZRvASwbbDA==" length="4946078" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.2.2</title>
       <pubDate>Tue, 13 Oct 2026 12:13:50 +0000</pubDate>
       <sparkle:version>4</sparkle:version>
