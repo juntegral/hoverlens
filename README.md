@@ -100,6 +100,22 @@ HoverLens는 공부하고 글을 이해하는 데 쓰라고 만든 도구입니�
 
 목록에 없는 모델은 "직접 입력"으로 이름을 적습니다. 얼마나 오래 생각할지는 동작마다 빠르게·보통·깊게 가운데 고릅니다.
 
+### Claude Code나 Codex가 없다면
+
+둘 중 하나만 설치하고 로그인하면 됩니다. API 키를 쓴다면 설치할 것이 없습니다.
+
+```sh
+# Claude Code
+brew install --cask claude-code
+claude auth login
+
+# Codex
+brew install --cask codex
+codex login
+```
+
+설치한 뒤 HoverLens의 모델 화면을 열면 위치를 스스로 찾습니다. 같은 화면의 예제 문제로 한 번 풀어 보면 잘 연결됐는지 알 수 있습니다.
+
 ## 읽는 것과 보내는 것
 
 - 단축키를 눌렀을 때만 화면의 글을 읽습니다. 평소에는 아무것도 읽지 않습니다.
