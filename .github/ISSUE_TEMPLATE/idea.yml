@@ -1,0 +1,11 @@
+name: 제안
+description: 있었으면 하는 기능이나 바꿨으면 하는 점을 알려 주세요.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 어떤 점이 달라졌으면 하나요
+      description: 어떤 상황에서 필요했는지 함께 적어 주시면 도움이 됩니다.
+    validations:
+      required: true

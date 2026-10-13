@@ -122,3 +122,12 @@ HoverLens는 공부하고 글을 이해하는 데 쓰라고 만든 도구입니�
 - API 키는 키체인에만 저장합니다. Claude Code와 Codex의 로그인 정보는 읽지 않습니다.
 - 조회 기록은 `~/Library/Application Support/HoverLens/`에 저장하며, 끄거나 지울 수 있습니다.
 - 패널과 창은 보통의 창입니다. 화면 공유나 녹화에 그대로 보입니다.
+
+## 의견 보내기
+
+써 보고 느낀 점, 잘 안 되는 점, 있었으면 하는 기능을 알려 주세요.
+
+- [사용 후기와 질문](https://github.com/juntegral/hoverlens/discussions)
+- [문제 신고와 제안](https://github.com/juntegral/hoverlens/issues/new/choose)
+
+화면의 글이나 답을 붙여 넣을 때는 개인 정보가 들어 있지 않은지 확인해 주세요.

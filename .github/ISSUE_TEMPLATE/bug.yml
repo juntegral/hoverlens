@@ -1,0 +1,32 @@
+name: 문제 신고
+description: 잘못 동작하거나 기대와 다르게 동작한 것을 알려 주세요.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 무슨 일이 있었나요
+      description: 무엇을 했고, 어떻게 되길 기대했고, 실제로는 어떻게 됐는지 적어 주세요.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: 어디에서
+      description: 글을 읽으려던 앱(Safari, Chrome, 미리보기 등)과 페이지의 종류
+  - type: input
+    id: version
+    attributes:
+      label: 버전
+      description: HoverLens 버전(메인 윈도우 → 정보)과 macOS 버전
+    validations:
+      required: true
+  - type: dropdown
+    id: service
+    attributes:
+      label: 답을 받는 곳
+      options:
+        - Claude Code
+        - Codex
+        - Anthropic API
+        - OpenAI API

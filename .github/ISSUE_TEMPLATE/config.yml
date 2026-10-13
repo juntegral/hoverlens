@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 사용 후기와 질문
+    url: https://github.com/juntegral/hoverlens/discussions
+    about: 써 본 느낌이나 쓰는 법에 대한 질문은 토론 게시판에 남겨 주세요.
